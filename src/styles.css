@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+* {
+  user-select: none;
+  background: var(--color-stone-50);
+}
+
 /* Leiko font variations */
 @font-face {
   font-family: "Leiko";
